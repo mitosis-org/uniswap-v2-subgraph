@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: mitosis-badnet
     source:
-      address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+      address: '0xDd6f5cb658D5108dCFFf45dE26276d9b7cAF968E'
       abi: Factory
-      startBlock: 10000834
+      startBlock: 367170
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mainnet
+    network: mitosis-badnet
     source:
       abi: Pair
     mapping:
