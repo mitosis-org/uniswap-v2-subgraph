@@ -8,7 +8,7 @@ dataSources:
     name: Factory
     network: mitosis-badnet
     source:
-      address: '0xDd6f5cb658D5108dCFFf45dE26276d9b7cAF968E'
+      address: '0xE96566Aa32489117C2Fc43D7d7545b2214Cc3E76'
       abi: Factory
       startBlock: 367170
     mapping:
