@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: mitosis-badnet
     source:
-      address: '0xE96566Aa32489117C2Fc43D7d7545b2214Cc3E76'
+      address: '0x2F28a93b8E533e023C0485ADBBCD041143f12588'
       abi: Factory
-      startBlock: 367170
+      startBlock: 681794
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
